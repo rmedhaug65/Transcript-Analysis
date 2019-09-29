@@ -8,4 +8,4 @@ There will be 2 main steps
 
 	2. Use NLP (Spacy & NLTK) to analyze transcripts. 
 
-One thing I am interested in, is seeing if Spacy or NLTK is able to group different industries together by using unique words/phrases mentioned in the transcripts. (i.e. refiners using words/phrases such as "crack spreads","gasoline","barrels", etc.) 
+One thing I am interested in, is seeing if Spacy or NLTK is able to group different industries together by using unique words/phrases mentioned in the transcripts. (i.e. refiners using words/phrases such as "crack spreads" , "gasoline" , "barrels", etc.) 
