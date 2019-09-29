@@ -7,9 +7,8 @@ import csv
 
 class QuoteSpider(scrapy.Spider):
 	name = 'scrapingalpha'
-	page_number = 12
-	#start_urls = ['https://seekingalpha.com/article/4288008-osi-systems-inc-osis-ceo-deepak-chopra-q4-2019-results-earnings-call-transcript']
-	start_urls = ['https://seekingalpha.com/earnings/earnings-call-transcripts/1']	#def start_requests(self):
+	page_number = 2
+	start_urls = ['https://seekingalpha.com/earnings/earnings-call-transcripts/1']
 
 	def parse(self, response):
 		calls = response.xpath("//h3[@class='list-group-item-heading']/a/@href").extract()
