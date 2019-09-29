@@ -31,20 +31,6 @@ class QuoteSpider(scrapy.Spider):
 			  'symbol':symbol,
 			  'name':name,
 			  'time':time}
-#----------------------------------------------------------------------------------------------
-	#copy of original
-	#def parse(self, response):
-		#calls = response.xpath("//h3[@class='list-group-item-heading']/a/@href").extract()
-		#urls = ['"https://seekingalpha.com' + i + '?part=single"' for i in calls]
-		#for url in urls:
-			#yield{'url':url}
-
-		#next_page = 'https://seekingalpha.com/earnings/earnings-call-transcripts/' + str(QuoteSpider.page_number) + '/'
-		#if QuoteSpider.page_number < 5:
-			#QuoteSpider.page_number+=1
-			#yield response.follow(next_page, callback=self.parse)
-#----------------------------------------------------------------------------------------------------
-
 
 
 		
